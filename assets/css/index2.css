@@ -1,0 +1,41 @@
+/* Basic styling to get you started */
+.top-bar {
+  background-color: #f0f0f0; 
+  padding: 10px;
+  display: flex;  /* Arrange items horizontally*/
+}
+
+.dropdown {
+  position: relative;
+}
+
+.drop-btn {
+  background-color: lightblue;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none; 
+  position: absolute;
+  background-color: white;
+  min-width: 100px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a { 
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Style on hover */
+.dropdown:hover .dropdown-content { 
+  display: block;
+}
+
+.dropdown:hover .drop-btn {
+  background-color: lightgray;
+}
