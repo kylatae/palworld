@@ -58,3 +58,24 @@ h1 {
 .main-content {
   padding: 20px;
 }
+
+.pal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.pal-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Adjust this width as needed */
+  text-align: center;
+}
+
+.pal-card h2 {
+  margin-bottom: 10px;
+}
